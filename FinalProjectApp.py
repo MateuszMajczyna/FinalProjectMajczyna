@@ -67,7 +67,7 @@ media_data = [
 
 cursor.execute("SELECT * FROM Media")
 rows = cursor.fetchall()
-
+#asuhisag
 print("\n📌 Media Entries in Database:")
 for row in rows:
     print(f"ID: {row.id}, Name: {row.name}, Type: {row.type}, Status: {row.status}, Score: {row.score}")
